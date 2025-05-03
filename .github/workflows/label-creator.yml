@@ -6,3 +6,6 @@ on:
 jobs:
   create-labels:
     uses: PitchConnect/.github/.github/workflows/label-creator.yml@main
+    permissions:
+      issues: write
+      contents: read
