@@ -7,5 +7,3 @@ on:
 jobs:
   label-issue:
     uses: PitchConnect/.github/.github/workflows/issue-labeler.yml@main
-    with:
-      label_name: 'triage'
